@@ -24,3 +24,6 @@ Space Punks/Assets/[Cc]inemachine/
 sysinfo.txt
 
 Space Punks/Assets/Ludiq/
+
+# Substance Projects
+*.spp
