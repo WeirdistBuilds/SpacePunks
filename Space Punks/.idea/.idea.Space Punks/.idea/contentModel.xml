@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Klee\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Klee\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Space Punks.-58763311.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Klee\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Klee\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Space Punks.-58763311.00" t="ExcludeRecursive" />
     <e p="E:\Work\School Work\2019 Summer\SpacePunks\Space Punks" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -226,20 +226,16 @@
             </e>
           </e>
         </e>
+        <e p="ParticleDecalPool.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="ParticleDecalData.cs" t="Include" />
           <e p="ParticleLauncher.cs" t="Include" />
         </e>
-        <e p="Shaders" t="Include">
-          <e p="PhaserShader.shader" t="Include" />
-        </e>
       </e>
-      <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Space Punks.sln" t="IncludeFlat" />
-      <e p="Temp" t="ExcludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-      </e>
+      <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
   </component>
 </project>

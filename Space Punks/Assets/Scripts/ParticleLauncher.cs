@@ -5,6 +5,8 @@ public class ParticleLauncher : MonoBehaviour
 {
     public ParticleSystem Phaser;
     public ParticleSystem Sparks;
+    public Gradient particleColorGradient;
+    public ParticleDecalPool burnDecalPool;
 
     public List<ParticleCollisionEvent> collisionEvents;
 
@@ -27,6 +29,7 @@ public class ParticleLauncher : MonoBehaviour
 
         foreach (var t in collisionEvents)
         {
+            burnDecalPool.ParticleHit(t, particleColorGradient);
             EmitAtLocation(t);
         }
     }
