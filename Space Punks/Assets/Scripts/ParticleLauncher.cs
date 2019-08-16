@@ -7,8 +7,10 @@ public class ParticleLauncher : MonoBehaviour
     public ParticleSystem Sparks;
     public Gradient particleColorGradient;
     public ParticleDecalPool burnDecalPool;
-
     public List<ParticleCollisionEvent> collisionEvents;
+    
+    private Color color;
+    private Renderer renderer;
 
     void Start()
     {

@@ -13,16 +13,23 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/ParticleDecalPool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Explosion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Target.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParticleLauncher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Popper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParticleDecalData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Laser.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/ParticleDecalData.cs" />
         <option value="$PROJECT_DIR$/Assets/ParticleDecalPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HeatExploder.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ParticleLauncher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ParticleDecalData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Laser.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Explosion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Target.cs" />
       </list>
     </option>
   </component>
@@ -80,6 +87,9 @@
       <workItem from="1565808503830" duration="287000" />
       <workItem from="1565809104840" duration="922000" />
       <workItem from="1565817454423" duration="2668000" />
+      <workItem from="1565826620286" duration="2532000" />
+      <workItem from="1565847809869" duration="777000" />
+      <workItem from="1565937987678" duration="3594000" />
     </task>
     <servers />
   </component>

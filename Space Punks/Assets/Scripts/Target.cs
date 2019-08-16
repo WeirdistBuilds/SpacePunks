@@ -1,0 +1,33 @@
+﻿using UnityEngine;
+
+public class Target : MonoBehaviour
+{
+    public float health = 6000f;
+    private Rigidbody[] shrapnel;
+    public GameObject target;
+    
+    
+    private void Start()
+    {
+        shrapnel = gameObject.GetComponentsInChildren<Rigidbody>();
+    }
+
+    public void TakeDamage(float amount)
+    {
+        health -= amount;
+        if (health <= 0f)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        foreach (var rigidBody in shrapnel)
+        {
+            rigidBody.isKinematic = false;
+        }
+
+        target.SetActive(false);
+    }
+}

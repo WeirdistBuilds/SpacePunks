@@ -4,7 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Destroyer
+  - Target
+  - Shrapnel
   layers:
   - Default
   - TransparentFX
@@ -15,8 +16,8 @@ TagManager:
   - 
   - 
   - Environment
-  - 
-  - 
+  - Target
+  - Shrapnel
   - 
   - 
   - 
