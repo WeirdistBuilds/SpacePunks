@@ -233,7 +233,9 @@
           <e p="ParticleDecalPool.cs" t="Include" />
           <e p="ParticleLauncher.cs" t="Include" />
           <e p="Popper.cs" t="Include" />
+          <e p="SpawnerDestroyer.cs" t="Include" />
           <e p="Target.cs" t="Include" />
+          <e p="WhatAmIHitting.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

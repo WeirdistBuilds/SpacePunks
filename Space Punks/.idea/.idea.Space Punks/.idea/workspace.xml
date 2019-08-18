@@ -16,6 +16,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Explosion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Target.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParticleLauncher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnerDestroyer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Popper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParticleDecalData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Laser.cs" root0="FORCE_HIGHLIGHTING" />
@@ -25,11 +26,13 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/ParticleDecalPool.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HeatExploder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ParticleLauncher.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ParticleDecalData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Laser.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Explosion.cs" />
+        <option value="$PROJECT_DIR$/Assets/WhatAmIHitting.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Target.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ParticleLauncher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnerDestroyer.cs" />
       </list>
     </option>
   </component>
@@ -90,6 +93,7 @@
       <workItem from="1565826620286" duration="2532000" />
       <workItem from="1565847809869" duration="777000" />
       <workItem from="1565937987678" duration="4013000" />
+      <workItem from="1566153420158" duration="7540000" />
     </task>
     <servers />
   </component>

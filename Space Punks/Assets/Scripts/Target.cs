@@ -4,7 +4,8 @@ public class Target : MonoBehaviour
 {
     public float health = 6000f;
     private Rigidbody[] shrapnel;
-    public GameObject target;
+    public GameObject Explosion;
+    public GameObject MyTarget;
     
     
     private void Start()
@@ -28,6 +29,9 @@ public class Target : MonoBehaviour
             rigidBody.isKinematic = false;
         }
 
-        target.SetActive(false);
+        Instantiate(Explosion, transform);
+        MyTarget.SetActive(false);
+        
+        Destroy(gameObject, 3f);
     }
 }
