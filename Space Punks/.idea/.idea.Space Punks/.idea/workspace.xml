@@ -30,9 +30,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Laser.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Explosion.cs" />
         <option value="$PROJECT_DIR$/Assets/WhatAmIHitting.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Target.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ParticleLauncher.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnerDestroyer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Target.cs" />
       </list>
     </option>
   </component>
@@ -94,6 +94,7 @@
       <workItem from="1565847809869" duration="777000" />
       <workItem from="1565937987678" duration="4013000" />
       <workItem from="1566153420158" duration="7540000" />
+      <workItem from="1566272620691" duration="1318000" />
     </task>
     <servers />
   </component>
