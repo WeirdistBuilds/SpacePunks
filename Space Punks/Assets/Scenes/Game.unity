@@ -673,8 +673,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.12218326, y: 0, z: 0, w: 0.9925076}
+  m_LocalPosition: {x: 0, y: 3, z: -6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1930195823}
@@ -5580,6 +5580,31 @@ MonoBehaviour:
   PossibleSpawns:
   - {fileID: 2668391846826465565, guid: 853a1ef95ba0c124fb5c76cf5a5310d1, type: 3}
   - {fileID: 6665791595736665346, guid: 71c708d13d108194da64c8acb7b20143, type: 3}
+  - {fileID: 7529103481262351822, guid: e6fd5a69890100b4ca442131ef85df70, type: 3}
+  - {fileID: 1785241970787814412, guid: 421a52a0e606cad41a82458896e2751e, type: 3}
+  - {fileID: 5149056797222668530, guid: 708a51773d0a6154197370cd4ce83700, type: 3}
+  - {fileID: 8647818568630516487, guid: 564a69db6807acb408ba9e0c52899471, type: 3}
+  - {fileID: 7645815723641613392, guid: 42cd94e2980a59148951d8e20451f083, type: 3}
+  - {fileID: 71654253794561124, guid: e82752f37a1b18c4dbd71e0a30f058b6, type: 3}
+  - {fileID: 2845982574153510176, guid: b9f3da3a2e089af4cad2c776e32b0b56, type: 3}
+  - {fileID: 2917176816923946789, guid: 831d22a20f55c924989c9442c99462d4, type: 3}
+  - {fileID: 4265042443538267365, guid: 63978e1ab3ee8c140899909f0cf8cdaa, type: 3}
+  - {fileID: 341473902663779217, guid: d56447386f43fdc4596ada67aa307175, type: 3}
+  - {fileID: 5348078665165779366, guid: 5228fba478e5e864a9b649a31585a4e6, type: 3}
+  - {fileID: 4808648859404962136, guid: 310d54b05d5f4654da764a1fc9f75aa1, type: 3}
+  - {fileID: 1086122583311142084, guid: 9f9f02483c003624f98e5324fa8ae49b, type: 3}
+  - {fileID: 1248983395075458039, guid: 825aed7a273cdb341b980bf169ce7faa, type: 3}
+  - {fileID: 2104107604298935827, guid: accf52c8f1f44414a957c31d355ff8fe, type: 3}
+  - {fileID: 3149223853821735575, guid: efc617cb906947b43a53ff987357251d, type: 3}
+  - {fileID: 93347939487775507, guid: 899f1c7d34203824d8f9323beb44dae5, type: 3}
+  - {fileID: 866269522152380521, guid: eaba8f3d7741d1e4e8084a7c4de9781c, type: 3}
+  - {fileID: 1261698373649129289, guid: 8259acc8ea798364b97cdb1e7321b280, type: 3}
+  - {fileID: 672827980224663829, guid: 93e9ca8c9134cbc45a1532fe6a4e5512, type: 3}
+  - {fileID: 1191237956285899384, guid: 93de346e3e2c82e4bbbe9404b4061bd0, type: 3}
+  - {fileID: 3873720067683984241, guid: 576be6b4f29db4a46b110781ad6059a1, type: 3}
+  - {fileID: 774987128373266050, guid: 42bfbed9d69a3c148b768cc95ef8c23a, type: 3}
+  - {fileID: 256550166359344644, guid: b1185d67359bc4046bc4be4caa7de863, type: 3}
+  - {fileID: 154956025740478649, guid: 251f2b441b5e73443921a2e748051cea, type: 3}
   CurrentObjects: []
   SpawnCount: 40
   MinDistance: 10
