@@ -2,7 +2,7 @@
 
 public class Target : MonoBehaviour
 {
-    public float health = 6000f;
+    public float health = 2000f;
     private Rigidbody[] shrapnel;
     public GameObject MyTarget;
     public GameObject ExplosionEffect;
@@ -25,7 +25,7 @@ public class Target : MonoBehaviour
     
     void Explode()
     {
-        Instantiate(ExplosionEffect, transform.position, transform.rotation);
+        Instantiate(ExplosionEffect, MyTarget.transform.position, MyTarget.transform.rotation);
         MyTarget.SetActive(false);
         
         Collider[] colliders = Physics.OverlapSphere(transform.position, radius);

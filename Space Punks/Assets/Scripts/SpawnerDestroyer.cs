@@ -12,6 +12,7 @@ public class SpawnerDestroyer : MonoBehaviour
     private Quaternion currentRotation;
     public int SpawnCount;
     public float MinDistance = 10f, MaxDistance = 999f;
+    public float MinForce = 1f, MaxForce = 10f;
 
     void Start()
     {
@@ -27,21 +28,21 @@ public class SpawnerDestroyer : MonoBehaviour
     }
 
     private void Spawner()
-    { 
+    {
         while (CurrentObjects.Count < SpawnCount)
         {
             currentObject = PossibleSpawns[Random.Range(0, PossibleSpawns.Length)];
             currentPosition.x = transform.position.x + Random.Range(MinDistance, MaxDistance);
             currentPosition.y = transform.position.y + Random.Range(MinDistance, MaxDistance);
             currentPosition.z = transform.position.z + Random.Range(MinDistance, MaxDistance);
-            
+
             currentRotation.w = Random.Range(0, 360);
             currentRotation.x = Random.Range(0, 360);
             currentRotation.y = Random.Range(0, 360);
             currentRotation.z = Random.Range(0, 360);
-            
+
             CurrentObjects.Add(Instantiate(currentObject, currentPosition, currentRotation));
-            
+
         }
     }
 

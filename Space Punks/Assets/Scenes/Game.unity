@@ -5580,35 +5580,37 @@ MonoBehaviour:
   PossibleSpawns:
   - {fileID: 2668391846826465565, guid: 853a1ef95ba0c124fb5c76cf5a5310d1, type: 3}
   - {fileID: 6665791595736665346, guid: 71c708d13d108194da64c8acb7b20143, type: 3}
-  - {fileID: 7529103481262351822, guid: e6fd5a69890100b4ca442131ef85df70, type: 3}
-  - {fileID: 1785241970787814412, guid: 421a52a0e606cad41a82458896e2751e, type: 3}
-  - {fileID: 5149056797222668530, guid: 708a51773d0a6154197370cd4ce83700, type: 3}
-  - {fileID: 8647818568630516487, guid: 564a69db6807acb408ba9e0c52899471, type: 3}
-  - {fileID: 7645815723641613392, guid: 42cd94e2980a59148951d8e20451f083, type: 3}
-  - {fileID: 71654253794561124, guid: e82752f37a1b18c4dbd71e0a30f058b6, type: 3}
-  - {fileID: 2845982574153510176, guid: b9f3da3a2e089af4cad2c776e32b0b56, type: 3}
-  - {fileID: 2917176816923946789, guid: 831d22a20f55c924989c9442c99462d4, type: 3}
-  - {fileID: 4265042443538267365, guid: 63978e1ab3ee8c140899909f0cf8cdaa, type: 3}
-  - {fileID: 341473902663779217, guid: d56447386f43fdc4596ada67aa307175, type: 3}
-  - {fileID: 5348078665165779366, guid: 5228fba478e5e864a9b649a31585a4e6, type: 3}
-  - {fileID: 4808648859404962136, guid: 310d54b05d5f4654da764a1fc9f75aa1, type: 3}
-  - {fileID: 1086122583311142084, guid: 9f9f02483c003624f98e5324fa8ae49b, type: 3}
-  - {fileID: 1248983395075458039, guid: 825aed7a273cdb341b980bf169ce7faa, type: 3}
-  - {fileID: 2104107604298935827, guid: accf52c8f1f44414a957c31d355ff8fe, type: 3}
-  - {fileID: 3149223853821735575, guid: efc617cb906947b43a53ff987357251d, type: 3}
-  - {fileID: 93347939487775507, guid: 899f1c7d34203824d8f9323beb44dae5, type: 3}
-  - {fileID: 866269522152380521, guid: eaba8f3d7741d1e4e8084a7c4de9781c, type: 3}
-  - {fileID: 1261698373649129289, guid: 8259acc8ea798364b97cdb1e7321b280, type: 3}
-  - {fileID: 672827980224663829, guid: 93e9ca8c9134cbc45a1532fe6a4e5512, type: 3}
-  - {fileID: 1191237956285899384, guid: 93de346e3e2c82e4bbbe9404b4061bd0, type: 3}
-  - {fileID: 3873720067683984241, guid: 576be6b4f29db4a46b110781ad6059a1, type: 3}
-  - {fileID: 774987128373266050, guid: 42bfbed9d69a3c148b768cc95ef8c23a, type: 3}
-  - {fileID: 256550166359344644, guid: b1185d67359bc4046bc4be4caa7de863, type: 3}
-  - {fileID: 154956025740478649, guid: 251f2b441b5e73443921a2e748051cea, type: 3}
+  - {fileID: 6257370516951990031, guid: e6fd5a69890100b4ca442131ef85df70, type: 3}
+  - {fileID: 1127125060149101268, guid: ec6399f166a7e7542973ed3704cff48d, type: 3}
+  - {fileID: 79999144953394845, guid: e5ff74c356100984aa9e7bd741c18058, type: 3}
+  - {fileID: 2625206814511112408, guid: 7dcbffa310baa044291db7a12ab6a558, type: 3}
+  - {fileID: 8556699582757817924, guid: c84083ff2d1261a4a9454c37588775bb, type: 3}
+  - {fileID: 3559481017165394108, guid: 2376d4abe88cd46469165b7df179adff, type: 3}
+  - {fileID: 3298323431180767915, guid: e82752f37a1b18c4dbd71e0a30f058b6, type: 3}
+  - {fileID: 849806781504420155, guid: 5228fba478e5e864a9b649a31585a4e6, type: 3}
+  - {fileID: 5853060861533348791, guid: efc617cb906947b43a53ff987357251d, type: 3}
+  - {fileID: 2924354585574944694, guid: a086e8c62264b3046a9b22c69f12e842, type: 3}
+  - {fileID: 7866325746842153331, guid: cb4cf85138f5c444492f2ad6f8a36552, type: 3}
+  - {fileID: 1800701926425453788, guid: 232e188d0a160d14db9467bc2268f14e, type: 3}
+  - {fileID: 5962108714522290371, guid: 361adf71cd5741c429d4a7a17d3d1d7b, type: 3}
+  - {fileID: 669793978046560823, guid: 3511aff00253ba4488914b7dd26f1229, type: 3}
+  - {fileID: 7198859596067036700, guid: 82f4902865362464a8d7d11d3678652b, type: 3}
+  - {fileID: 3927342346988371196, guid: 3b555b5ee37e32144a4f84110f7a643e, type: 3}
+  - {fileID: 9037374481783035921, guid: 19fa024eefb5aba40969284c7b9aae4d, type: 3}
+  - {fileID: 3951606842266271600, guid: cda78f35edbbdf94a8b6c9cad2e3c235, type: 3}
+  - {fileID: 8647643485779902414, guid: d4f2ce2f0ccdf914d8cc0852b91accec, type: 3}
+  - {fileID: 1636660862140105691, guid: 93de346e3e2c82e4bbbe9404b4061bd0, type: 3}
+  - {fileID: 5048703346063371634, guid: 52c3e6b277c629a46814cb9829693f2e, type: 3}
+  - {fileID: 4678385314543592779, guid: 684059bb353d7f942b2a4f463e331b9b, type: 3}
+  - {fileID: 6421102223167604385, guid: 32a0a686b6e20e14d97e966d68c120b1, type: 3}
+  - {fileID: 1637166918051366008, guid: 8bd2c232e8b2ba24a99ad1de31dc6c8b, type: 3}
+  - {fileID: 3657682329000620923, guid: a6488b71772a3474594bfc796fe19168, type: 3}
   CurrentObjects: []
   SpawnCount: 40
   MinDistance: 10
   MaxDistance: 499
+  MinForce: 1
+  MaxForce: 10
 --- !u!135 &1255486532
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -11098,7 +11100,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.2
+      scalar: 0.1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
