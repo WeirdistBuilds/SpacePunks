@@ -5558,8 +5558,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1255486529}
-  m_LocalRotation: {x: -0.12218326, y: -0, z: -0, w: 0.9925076}
-  m_LocalPosition: {x: 0, y: -1.4552137, z: 6.548462}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 963194228}
@@ -5606,9 +5606,9 @@ MonoBehaviour:
   - {fileID: 1637166918051366008, guid: 8bd2c232e8b2ba24a99ad1de31dc6c8b, type: 3}
   - {fileID: 3657682329000620923, guid: a6488b71772a3474594bfc796fe19168, type: 3}
   CurrentObjects: []
-  SpawnCount: 40
-  MinDistance: 10
-  MaxDistance: 499
+  SpawnCount: 80
+  MinDistance: 500
+  MaxDistance: 1999
   MinForce: 1
   MaxForce: 10
 --- !u!135 &1255486532
@@ -5622,7 +5622,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1000
+  m_Radius: 2000
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1255486533
 MeshFilter:
