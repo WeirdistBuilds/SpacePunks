@@ -17,10 +17,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Target.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParticleLauncher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnerDestroyer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DestroyAfterSeconds.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpaceFloat.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Popper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SFXPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParticleDecalData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Laser.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -32,14 +32,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ParticleDecalData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Explosion.cs" />
         <option value="$PROJECT_DIR$/Assets/WhatAmIHitting.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Target.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyAfterSeconds.cs" />
+        <option value="$PROJECT_DIR$/Assets/ControllerReader.cs" />
+        <option value="$PROJECT_DIR$/Assets/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpaceFloat.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnerDestroyer.cs" />
-        <option value="$PROJECT_DIR$/Assets/AudioManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/ControllerReader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ParticleLauncher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Target.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Laser.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ParticleLauncher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SFXPlayer.cs" />
       </list>
     </option>
   </component>
@@ -105,6 +106,7 @@
       <workItem from="1566359180936" duration="4279000" />
       <workItem from="1566409045171" duration="197000" />
       <workItem from="1566544227679" duration="4859000" />
+      <workItem from="1566576138704" duration="11814000" />
     </task>
     <servers />
   </component>
@@ -131,6 +133,8 @@
     <state x="872" y="362" key="#Notifications/2560.1440/2560.1080" />
     <state x="765" y="346" key="SettingsEditor" />
     <state x="765" y="346" key="SettingsEditor/2560.1440/2560.1080" />
+    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup" />
+    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup/2560.1440/2560.1080" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

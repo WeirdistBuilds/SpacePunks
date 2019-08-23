@@ -22,8 +22,6 @@ public class Laser : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(Galileo.transform.position, Galileo.transform.forward, out hit, range))
         {
-            Debug.Log(hit.transform.name);
-
             Target target = hit.transform.GetComponent<Target>();
             if (target != null)
             {

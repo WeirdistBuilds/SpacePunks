@@ -8,6 +8,11 @@ public class SpaceFloat : MonoBehaviour
     
     void Start()
     {
+        AddRandomForce();
+    }
+
+    public void AddRandomForce()
+    {
         rb = gameObject.GetComponent<Rigidbody>();
         force = new Vector3
         {

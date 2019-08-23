@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Target
   - Shrapnel
+  - SpawnerDestroyer
   layers:
   - Default
   - TransparentFX

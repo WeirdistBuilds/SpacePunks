@@ -8,10 +8,13 @@ public class Target : MonoBehaviour
     public GameObject ExplosionEffect;
     public float radius = 5f;
     public float force = 700f;
+    public SpawnerDestroyer myDestroyer;
     
     private void Start()
     {
         shrapnel = gameObject.GetComponentsInChildren<Rigidbody>();
+        GameObject destroyer = GameObject.FindWithTag("SpawnerDestroyer");
+        myDestroyer = destroyer.GetComponent<SpawnerDestroyer>();
     }
 
     public void TakeDamage(float amount)
@@ -43,7 +46,8 @@ public class Target : MonoBehaviour
                 rb.AddExplosionForce(force, transform.position, radius);
             }
         }
-        
+
+        myDestroyer.CurrentObjects.Remove(gameObject);
         Destroy(gameObject, 10f);
     }
 }

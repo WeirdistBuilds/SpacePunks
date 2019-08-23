@@ -8,6 +8,7 @@ public class ParticleLauncher : MonoBehaviour
     public Gradient particleColorGradient;
     public ParticleDecalPool burnDecalPool;
     public List<ParticleCollisionEvent> collisionEvents;
+    private bool isFiring;
     
     private Color color;
     private Renderer renderer;
@@ -21,7 +22,7 @@ public class ParticleLauncher : MonoBehaviour
     {
         if (Input.GetButton("Fire3"))
         {
-            Phaser.Emit(1);            
+            Phaser.Emit(1);
         }
     }
 
