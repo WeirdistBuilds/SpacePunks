@@ -10,7 +10,7 @@ public class Laser : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButton("Fire1"))
+        if (Input.GetButton("Fire3"))
         {
             Shoot();
         }

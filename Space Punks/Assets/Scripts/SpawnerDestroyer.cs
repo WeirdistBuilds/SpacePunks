@@ -10,21 +10,22 @@ public class SpawnerDestroyer : MonoBehaviour
     private GameObject currentObject;
     private Vector3 currentPosition;
     private Quaternion currentRotation;
+    public Camera camera;
     public int SpawnCount;
     public float MinDistance = 10f, MaxDistance = 999f;
-    public float MinForce = 1f, MaxForce = 10f;
 
     void Start()
     {
         Spawner();
+        camera = Camera.main;
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        var g = CurrentObjects.Find(x => other.gameObject);
-        CurrentObjects.Remove(g);
-        Destroy(g);
-        Spawner();
+    private void OnTriggerExit(Collider other) 
+    { 
+        var g = CurrentObjects.Find(x => other.gameObject); 
+        CurrentObjects.Remove(g); 
+        Destroy(g); 
+        Spawner(); 
     }
 
     private void Spawner()

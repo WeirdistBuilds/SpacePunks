@@ -19,7 +19,7 @@ public class ParticleLauncher : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetButton("Fire1"))
+        if (Input.GetButton("Fire3"))
         {
             Phaser.Emit(1);            
         }
