@@ -66,6 +66,7 @@ MonoBehaviour:
     type: 3}
   radius: 50
   force: 1000
+  myDestroyer: {fileID: 0}
 --- !u!54 &849806781504420152
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -188,7 +189,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 19.74
+  m_Radius: 25.1
   m_Center: {x: 1.67, y: 1.58, z: -8.86}
 --- !u!135 &1329705552617312698
 SphereCollider:
@@ -201,7 +202,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 10.74
+  m_Radius: 16.5
   m_Center: {x: 3.3, y: -21.5, z: 0.83}
 --- !u!135 &1329705552617312701
 SphereCollider:
@@ -214,7 +215,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 9.27
+  m_Radius: 12.07
   m_Center: {x: 1.8, y: 30.95, z: -4.7973146}
 --- !u!1 &1376597100337309144
 GameObject:

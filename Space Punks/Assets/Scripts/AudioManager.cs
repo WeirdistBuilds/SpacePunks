@@ -12,7 +12,6 @@ public class AudioManager : MonoBehaviour
     public String[] SoundtrackNames;
     public int CurrentTrack;
     public float WaitTime = 5f;
-    private bool leftTrigger, rightTrigger;
     
     void Start()
     {
@@ -24,18 +23,17 @@ public class AudioManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetAxis("RadioDown") > 0 && !leftTrigger)
+        if (Input.GetButtonDown("RadioUp"))
         {
             CurrentTrack++;
             if (CurrentTrack > Soundtrack.Length - 1)
             {
                 CurrentTrack = 0;
             }
-
-            leftTrigger = true;
             ChangeBGM(Soundtrack[CurrentTrack]);
         }
-        else if (Input.GetAxis("RadioUp") > 0 && !rightTrigger)
+        
+        if (Input.GetButtonDown("RadioDown"))
         {
             CurrentTrack--;
             if (CurrentTrack < 0)
@@ -43,7 +41,6 @@ public class AudioManager : MonoBehaviour
                 CurrentTrack = Soundtrack.Length - 1;
             }
             
-            rightTrigger = true;
             ChangeBGM(Soundtrack[CurrentTrack]);
         }
 
@@ -64,13 +61,5 @@ public class AudioManager : MonoBehaviour
         BGM.clip = music;
         BGM.Play();
         BGMName.text = SoundtrackNames[CurrentTrack];
-        StartCoroutine(Wait());
-    }
-
-    IEnumerator Wait()
-    {
-        yield return new WaitForSeconds(WaitTime);
-        leftTrigger = false;
-        rightTrigger = false;
     }
 }

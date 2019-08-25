@@ -810,12 +810,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f70b567b77ae110479cc59d8761e527f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 4000
+  health: 1500
   MyTarget: {fileID: 1231372364844992916}
   ExplosionEffect: {fileID: 6318708964702623670, guid: 36933a4e04704b94c8a1fe6f5b2aa79e,
     type: 3}
   radius: 30
   force: 50
+  myDestroyer: {fileID: 0}
 --- !u!114 &5109885146126354982
 MonoBehaviour:
   m_ObjectHideFlags: 0

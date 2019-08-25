@@ -605,12 +605,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f70b567b77ae110479cc59d8761e527f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3600
+  health: 1500
   MyTarget: {fileID: 4454505694926325855}
   ExplosionEffect: {fileID: 6318708964702623670, guid: 3c84b993d8f253a4a883f86fa0410bf8,
     type: 3}
   radius: 50
   force: 1000
+  myDestroyer: {fileID: 0}
 --- !u!54 &2625206814511112411
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -951,7 +952,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 19.74
+  m_Radius: 24.67
   m_Center: {x: 1.67, y: 1.58, z: -8.86}
 --- !u!135 &4454505694926325849
 SphereCollider:
@@ -964,7 +965,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 10.74
+  m_Radius: 13.22
   m_Center: {x: 3.3, y: -21.5, z: 0.83}
 --- !u!135 &4454505694926325854
 SphereCollider:
@@ -977,7 +978,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 9.27
+  m_Radius: 11.14
   m_Center: {x: 1.8, y: 30.95, z: -4.7973146}
 --- !u!1 &5285754313558099638
 GameObject:
